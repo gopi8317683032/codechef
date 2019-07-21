@@ -1,0 +1,13 @@
+t=int(input())
+for i in range(0,t):
+    c=0
+    a=input()
+    b=input()
+    for ch in a.split():
+        for ch2 in b.split(): 
+            if ch == ch2:
+                c=c+1
+    if c>0:
+        print("Yes")
+    else:
+        print("No")

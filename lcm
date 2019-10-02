@@ -1,0 +1,12 @@
+def lcm(a,b):
+    m=max(a,b)
+    while m>0:
+        if m%a==0 and m%b==0:
+            print(m)
+            exit(0)
+        else:
+            m=m+1
+        
+
+l=lcm(72,120)
+print(l)

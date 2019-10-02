@@ -1,0 +1,12 @@
+def gcd(a,b):
+    m=min(a,b)
+    while m!=0:
+        if a%m==0 and b%m==0:
+            print(m)
+            exit(0)
+        else:
+            m=m-1
+        
+
+g=gcd(81,153)
+print(g)
